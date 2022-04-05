@@ -1,0 +1,99 @@
+.trade-content{
+    background-color: var(--background-color);
+    padding: 20vh 13% 5rem 13%;
+
+    .line{
+        width: 94px;
+        height: 7px;
+        background-color: var(--highlight-color);
+        display: block;
+        margin-bottom: 2.5rem;
+    }
+
+    h4{
+        color: var(--highlight-color);
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 150%;
+        margin: 0 0 2.5rem 0;
+    }
+
+    h2{
+        margin: 0;
+        line-height: 125%;
+        color: var(--text-color);
+        font-size: 2.8vw;
+    }
+
+    p{
+        margin: 0;
+        color: var(--second-text-color);
+        font-weight: 400;
+        margin: 2.5rem 0;
+    }
+  
+    .cards-content{
+      display: flex;
+      margin-top: 5rem;
+
+      & > div {
+          box-shadow: var(--shadow);
+          margin-right: 3%;
+          flex: 1;
+          background-color: white;
+          padding: 2rem 2.5rem;
+
+          &:last-child{
+              margin-right: 0;
+          }
+
+          h3{
+              font-size: 1rem;
+              font-weight: 700;
+              color: var(--text-color);
+              position: relative;
+              margin-bottom: 2.5rem;
+
+              &::before{
+                  width: 50px;
+                  height: 2px;
+                  background-color: var(--highlight-color);
+                  position: absolute;
+                  bottom: -1.2rem;
+                  left: 0;
+                  content: '';
+              }
+          }
+
+          p{
+              font-size: .9rem;
+              color: var(--second-text-color);
+              line-height: 143%;
+          }
+      }
+  }
+}
+
+@media(max-width: 992px) {
+  .trade-content {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+    h2 {
+      font-size: 1.3rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: .9rem;
+    }
+
+    .btn-gral {
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
