@@ -1,7 +1,8 @@
 .content-init{
-    background-color: var(--background-color);
+    background-color: #252B42;;
     padding: 4rem 13% 2rem 13%;
     min-height: calc(100vh - 6.5rem);
+
     
     .welcome-box{
         display: flex;
@@ -20,7 +21,7 @@
         
             h2{
                 font-size: 4vw;
-                color: var(--text-color);
+                color:#FFFF;
                 margin-top: 0;
                 margin-bottom: 2rem;
                 line-height: 138%;
@@ -31,6 +32,7 @@
                 margin-top: 0;
                 margin-bottom: 3rem;
                 line-height: 150%;
+                color:#FFFF;
             }
     
             .buttons-box{
